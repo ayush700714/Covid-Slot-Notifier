@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="264.7dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="95dp"
+        android:src="@drawable/walkthrough1" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="73.3dp"
+        android:layout_marginEnd="39dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/sf_pro_display_semibold"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:lineSpacingExtra="4dp"
+            android:text="have a check on your child's regular studies"
+            android:textColor="@color/black"
+            android:textSize="21.7sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="23.3dp"
+            android:fontFamily="@font/sf_pro_display_regular"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:text="learning pace"
+            android:textColor="@color/grey_828990"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+
+</LinearLayout>
